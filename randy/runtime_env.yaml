@@ -1,0 +1,5 @@
+working_dir: ./
+excludes: ["/.git/"]
+env_vars:
+  GLOO_SOCKET_IFNAME: "bond0"
+  TORCH_NCCL_AVOID_RECORD_STREAMS: "1"
